@@ -1,5 +1,5 @@
-FROM docker pull jenkins/jenkins:latest
-LABEL author="sriveen"
+FROM jenkins/jenkins:latest
+LABEL author="naveen"
 RUN adduser -h /petclinic -s /bin/sh -D petclinic
 USER petclinic
 WORKDIR /petclinic
