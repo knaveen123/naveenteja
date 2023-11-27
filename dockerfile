@@ -1,4 +1,4 @@
-FROM amazoncorretto:11-alpine3.18
+FROM docker pull jenkins/jenkins:latest
 LABEL author="sriveen"
 RUN adduser -h /petclinic -s /bin/sh -D petclinic
 USER petclinic
